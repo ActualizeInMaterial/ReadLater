@@ -45,7 +45,7 @@ function createLinkHTML(listItem, url){
 
 function getIcon(url){
   var domain = url.replace('http://','').replace('https://','').split(/[/?#]/)[0];
-  var imgUrl = "http://www.google.com/s2/favicons?domain=" + domain;
+  var imgUrl = "https://www.google.com/s2/favicons?domain=" + domain;
 
   var img = document.createElement("img");
   img.setAttribute('src', imgUrl);
